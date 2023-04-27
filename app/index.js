@@ -5,7 +5,7 @@ const fs = require('fs');
 const SERVICE_NAME='mymicroservice';
 const SERVICE_ID='m'+process.argv[2];
 const SCHEME='http';
-const HOST='99.5.100.3';
+const HOST='192.168.100.3';
 const PORT=process.argv[2]*1;
 const PID = process.pid;
 
